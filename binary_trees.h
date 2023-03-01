@@ -1,6 +1,9 @@
-#ifndef BINARY_TREES
-#define BINARY_TREES
+#ifndef BINARY_TREES_H
+#define BINARY_TREES_H
 
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
 /*BASIC BINARY TREE*/
 /**
  * struct binary_tree_s - Binary tree node
@@ -34,6 +37,8 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 
 
 /*PRINT FUNCTION DISPLAY A TREEE*/
+void binary_tree_print(const binary_tree_t *);
+
 /*END OF TREE DISPLAY*/
 
 #endif
